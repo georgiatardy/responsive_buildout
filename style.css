@@ -84,14 +84,27 @@ header{
 #main_content{
   background-color: #ddffff;
   display: flex;
+  margin: 25px;
 }
 
 #sidebar_content{
   background-color: #ffffdd;
   display: flex;
   justify-content: space-around;
+  margin: 25px;
+
 }
 
 #site_footer{
   background-color: peachpuff;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding: 20px;
+  margin: 25px;
+
+}
+
+#site_footer a{
+  margin: 20px;
 }
