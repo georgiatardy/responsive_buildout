@@ -12,108 +12,171 @@
 
     600px
     1100px
-
 */
 
-body{
+
+/*
+------------For Cellphones------------
+*/
+
+
+  body {
+    background-color: #ddffdd;
     font-family: Palatino, Times, serif;
     background-color: #ddffdd;
     margin: 20px;
     font-size: 14px;
     line-height: 1.6;
-
-}
-
-ul{
+  }
+  ul {
     padding-left: 20px;
     margin-top: 0;
-}
-
-h1, h2, h3{
+  }
+  h1, h2, h3 {
     color: #009999;
-
-}
-
-
-
-a{
+  }
+  a {
     font-weight: bold;
     color: red;
     text-decoration: none;
-}
-
-a:hover{
+  }
+  a:hover {
     color: blue;
-}
-
-header{
+  }
+  header {
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
     text-align: center;
-
-}
-
-section{
-
-
-}
-
-#site_container{
+  }
+  section {}
+  #site_container {
     padding: 20px;
     max-width: 1100px;
     margin: 0 auto;
     background: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-}
-
-#main_nav {
-  display: flex;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-
-}
-
-
-#main_nav a{
+  }
+  #main_nav {
+    display: flex;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  #main_nav a {
     height: 20px;
     padding: 10px;
     background: #ffdddd;
     border-radius: 5px;
-
-}
-
-
-#main_nav a:hover{
+  }
+  #main_nav a:hover {
     background: #ddddff;
+  }
+  #main_content {
+    background-color: #ddffff;
+    margin: 25px;
+  }
+  #sidebar_content {
+    background-color: #ffffdd;
+    margin: 25px;
+    display: flex;
+    display: block;
+  }
+
+  #site_footer {
+    background-color: peachpuff;
+    height: 40px;
+    padding: 10px;
+    margin: 25px;
+  }
+
+  #site_footer a {
+    margin: 20px;
+  }
+
+  @media only screen and (min-width: 600px) {
 }
 
-
-#main_content{
-  background-color: #ddffff;
-  margin: 25px;
-
-}
-
-#sidebar_content{
-  background-color: #ffffdd;
-  margin: 25px;
-  display: flex;
-  display: block;
-
-}
+/* -----------For Tablets------------ */
 
 
-#site_footer{
-  background-color: peachpuff;
-  height: 40px;
-  padding: 10px;
-  margin: 25px;
 
-}
+  body {
+    background-color: #ddffdd;
+    font-family: Palatino, Times, serif;
+    background-color: #ddffdd;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  ul {
+    padding-left: 20px;
+    margin-top: 0;
+  }
+  h1, h2, h3 {
+    color: #009999;
+  }
+  a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+  }
+  header {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddddff;
+    text-align: center;
+  }
+  section {}
+  #site_container {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  #main_nav {
+    display: flex;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  #main_nav a {
+    height: 20px;
+    padding: 10px;
+    background: #ffdddd;
+    border-radius: 5px;
+  }
+  #main_nav a:hover {
+    background: #ddddff;
+  }
+  #main_content {
+    background-color: #ddffff;
+    margin: 25px;
+  }
+  #sidebar_content {
+    background-color: #ffffdd;
+    margin: 25px;
+    display: flex;
+    display: block;
+  }
 
-#site_footer a{
-  margin: 20px;
+  #site_footer {
+    background-color: peachpuff;
+    height: 40px;
+    padding: 10px;
+    margin: 25px;
+  }
+
+  #site_footer a {
+    margin: 20px;
+  }
+
+  @@media only screen and (max-width: 1100px){
+
 }
