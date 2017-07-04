@@ -21,6 +21,7 @@ body{
     margin: 20px;
     font-size: 14px;
     line-height: 1.6;
+
 }
 
 ul{
@@ -30,11 +31,10 @@ ul{
 
 h1, h2, h3{
     color: #009999;
+
 }
 
-h2, h3{
-    margin-bottom: 0;
-}
+
 
 a{
     font-weight: bold;
@@ -50,8 +50,13 @@ header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+
+}
+
+section{
+
+
 }
 
 #site_container{
@@ -63,44 +68,48 @@ header{
     border-radius: 5px;
 }
 
-#main_nav{
-  text-align: center;
+#main_nav {
+  display: flex;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
 
 }
 
+
 #main_nav a{
-    width: 150px;
-    padding: 10px 2%;
+    height: 20px;
+    padding: 10px;
     background: #ffdddd;
-    margin-bottom: 5px;
     border-radius: 5px;
 
 }
+
 
 #main_nav a:hover{
     background: #ddddff;
 }
 
+
 #main_content{
   background-color: #ddffff;
-  display: flex;
   margin: 25px;
+
 }
 
 #sidebar_content{
   background-color: #ffffdd;
-  display: flex;
-  justify-content: space-around;
   margin: 25px;
+  display: flex;
+  display: block;
 
 }
 
+
 #site_footer{
   background-color: peachpuff;
-  display: flex;
-  justify-content: center;
   height: 40px;
-  padding: 20px;
+  padding: 10px;
   margin: 25px;
 
 }
